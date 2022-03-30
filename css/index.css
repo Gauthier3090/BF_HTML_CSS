@@ -26,16 +26,46 @@ label {
     position: relative;
 }
 
-h1 {
-    font-size: 1.5em;
+figure {
+    display: flex;
+    flex-flow: column;
     margin: auto;
 }
+
+figure > img {
+    max-height: 300px;
+}
+
+figcaption {
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 10px;
+    box-shadow: 12px 12px 12px 11px rgba(255, 255, 255);
+}
+
 div.cover > h2 {
     font-size: 1em;
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+    font-weight: bold;
+    letter-spacing: 10px;
+    padding: 15px;
 }
 
 div.cover > p {
     font-size: .9em;
+    color: #FFF;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
 footer {
