@@ -12,6 +12,10 @@ div.cover {
     height: 30rem;
 }
 
+h1 {
+    display: none;
+}
+
 
 div.cover > h2 {
     font-size: 20px;
