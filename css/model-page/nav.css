@@ -1,0 +1,53 @@
+nav {
+    height: auto;
+    background: #000;
+}
+
+nav .main_pages 
+{
+    display: none;
+    flex-direction: column;
+    height: auto;
+}
+
+nav .main_pages a {
+    width: 50%;
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 15px;
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .main_pages {
+    display: flex;
+}
+
+.emblem {
+    width: 45px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 10px;
+    box-shadow: 12px 12px 12px 11px rgba(255, 255, 255);
+}
