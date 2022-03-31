@@ -42,3 +42,23 @@ footer > ul > li > a {
     width: 8%;
     height: 8%;
 }
+
+@media (min-width:1025px) { 
+
+    footer > ul {
+        grid-template-columns: repeat(5, auto);
+        row-gap: 30px;
+    }
+
+    footer > ul > li > a {
+        font-size: 25px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .icons > a > img{
+        width: 4%;
+    }
+}
