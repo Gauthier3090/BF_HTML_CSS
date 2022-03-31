@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: #FFF;
+}
+
+footer > ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-auto-rows: auto;
+    row-gap: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.logo {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.icons {
+    text-align: center;
+    padding: 30px;
+}
+
+.icons > a {
+    text-decoration: none;
+}
+
+.icons > a > img{
+    width: 8%;
+    height: 8%;
+}
