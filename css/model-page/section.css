@@ -61,6 +61,20 @@ div.cover:first-child > p {
     object-fit: cover;
 }
 
+@media (min-width:801px) {
+    div.cover > h2 {
+        font-size: 40px;
+    }
+
+    div.border, #rule-two-border {
+        width: 40%;
+    }
+
+    div.cover > p {
+        font-size: 25px;
+    }
+}
+
 
 @media (min-width:1025px) { 
     div.cover > h2 {
