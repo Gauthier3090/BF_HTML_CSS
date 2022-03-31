@@ -23,6 +23,7 @@ div.cover > h2 {
     font-weight: bold;
     letter-spacing: 10px;
     padding-top: 100px;
+    text-transform: uppercase;
 }
 
 #rule-two-title {
