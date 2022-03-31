@@ -16,7 +16,6 @@ h1 {
     display: none;
 }
 
-
 div.cover > h2 {
     font-size: 20px;
     text-align: center;
@@ -60,4 +59,19 @@ div.cover:first-child > p {
 .models-rr {
     width: 100%;
     object-fit: cover;
+}
+
+
+@media (min-width:1025px) { 
+    div.cover > h2 {
+        font-size: 50px;
+    }
+
+    div.border, #rule-two-border {
+        width: 10%;
+    }
+
+    div.cover > p {
+        font-size: 25px;
+    }
 }
